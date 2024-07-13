@@ -1,0 +1,26 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: rgb(99, 220, 224);
+    padding: 20px 30px;
+    border: cyan 5px solid;
+    border-radius: 20px;
+    margin: 300px;
+}
+
+a {
+    color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+div:hover {
+    background-color: red;
+    border: rgb(167, 5, 5) 5px solid;
+}
